@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@font-face {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Hind+Vadodara:wght@300&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+}
+
+body {
+    margin: 0;
+    background: rgb(240, 239, 239);
+    font-family: 'Hind Vadodara', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+    margin-top: 45px;
+    background-color: lightgreen;
+    margin-right: -750px;
+    transform: scale(1) translate(50%, -50%);
+    transform-origin: 100% 0%;
+}
+
+
+/* muibadge will set properties of green dot on userimage in navbar */
+
+:root {
+    --bg: white;
+    --bg-accent: white;
+    --text-color: rgb(94, 92, 92);
+    --nav-size: 80px;
+    --border: 1px solid white;
+    --border-radius: 8px;
+    --speed: 500ms;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.titleDash {
+    margin-left: 465px;
+    margin-top: -320px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: larger;
+    color: slategray;
+}
+
+.myDIVicon {
+    width: 41px;
+    height: 24px;
+    cursor: pointer;
+    padding: 10px 0;
+    color: white;
+    margin-top: -40px;
+    margin-left: 400px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: -20px 10px 20px -2px #72c0e4 inset;
+    text-align: left;
+    text-indent: 50px;
+    font-size: 16px;
+    overflow: hidden;
+    background-color: rgb(17 212 238);
+}
+
+.myDIViconrec {
+    width: 10px;
+    height: 20px;
+    align-items: self-start;
+    border: white;
+    display: block;
+    position: relative;
+    border-color: white;
+    margin-top: -32px;
+    border-style: solid;
+    margin-left: 410px;
+    font-size: 16px;
+    background-color: rgb(17 212 238);
+}
+
+.side-bar {
+    height: 100%;
+    width: 21%;
+    width: 21%;
+    top: 81px;
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
+.searchrec {
+    -ms-flex-align: self-start;
+    align-items: self-start;
+    position: relative;
+    margin-top: 28px;
+    margin-right: 780px;
+}
+
+.btn {
+    background-color: rgb(84 210 234);
+    color: white;
+    box-shadow: 3px 3px 8px 6px hsl(187deg 94% 45%) inset;
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+    height: 25px;
+    position: absolute;
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: var(--nav-size);
+    background-color: var(--bg);
+    padding: 0 1rem;
+    border-bottom: var(--border);
+    text-align: center;
+}
+
+.navbar-nav {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar-nav {
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.nav-item {
+    width: calc(var(--nav-size) * 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.side-item {
+    width: calc(var(--nav-size) * 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    margin-top: 30px;
+    margin-right: -150px;
+    color: rgb(85, 100, 114);
+    font-weight: bold;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.search {
+    color: slategray;
+    margin-top: 27px;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    left: 400px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#sidetext {
+    color: slategray;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 100px;
+    position: absolute;
+    text-align: left;
+    margin-left: 80px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#sidetext1 {
+    color: slategray;
+    margin-top: 50px;
+    width: 126px;
+    position: absolute;
+    font-size: x-small;
+    text-align: left;
+    margin-left: 80px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.image {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 100px;
+    /*don't forget prefixes*/
+    background-image: url('../src/icons/user.png');
+    /* as mentioned by Vad: */
+    background-size: cover;
+}
+
+.image-keev {
+    /*don't forget prefixes*/
+    /* as mentioned by Vad: */
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 1240px;
+    height: 87px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: xx-large;
+    color: rgb(60, 220, 241);
+    width: 190px;
+}
+
+.sideimage {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-image: url('../src/icons/user.png');
+    background-size: cover;
+}
